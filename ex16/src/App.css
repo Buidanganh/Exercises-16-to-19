@@ -1,0 +1,41 @@
+.App {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: #f5f7fb;
+}
+
+.event-demo {
+  width: min(420px, calc(100% - 48px));
+  padding: 40px;
+  text-align: center;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(31, 41, 55, 0.12);
+}
+
+.event-demo h1 {
+  margin-top: 0;
+  color: #1f2937;
+}
+
+.event-demo p {
+  margin: 24px 0;
+  font-size: 1.2rem;
+  color: #374151;
+}
+
+.event-demo button {
+  padding: 12px 20px;
+  border: 0;
+  border-radius: 8px;
+  background: #2563eb;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.event-demo button:hover {
+  background: #1d4ed8;
+}

@@ -1,0 +1,44 @@
+.app-shell {
+  box-sizing: border-box;
+  min-height: 100vh;
+  padding: 72px clamp(24px, 7vw, 112px);
+  background: linear-gradient(145deg, #f2f7ec 0%, #f9f6ef 48%, #eaf3f5 100%);
+  color: #1f2a24;
+}
+
+.hero {
+  max-width: 700px;
+  margin: 0 auto 42px;
+  text-align: center;
+}
+
+.eyebrow {
+  margin: 0 0 10px;
+  color: #4d724a;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+h1 {
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: clamp(2.5rem, 6vw, 4.4rem);
+  line-height: 1;
+}
+
+.intro {
+  margin: 18px auto 0;
+  color: #526158;
+  font-size: 1.08rem;
+  line-height: 1.6;
+}
+
+.animal-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(245px, 1fr));
+  gap: 24px;
+  max-width: 1080px;
+  margin: 0 auto;
+}

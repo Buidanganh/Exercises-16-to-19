@@ -1,0 +1,87 @@
+.animal-card {
+  display: flex;
+  min-height: 450px;
+  flex-direction: column;
+  padding: 28px;
+  border: 1px solid rgba(54, 83, 57, 0.14);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.82);
+  box-shadow: 0 16px 30px rgba(47, 69, 48, 0.09);
+}
+
+.animal-card__image {
+  width: calc(100% + 56px);
+  height: 190px;
+  margin: -28px -28px 24px;
+  border-radius: 18px 18px 0 0;
+  object-fit: cover;
+}
+
+.animal-card__topline {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  color: #557655;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.animal-card__topline span:first-child {
+  color: #d68b41;
+  font-size: 0.75rem;
+}
+
+.animal-card h2 {
+  margin: 27px 0 3px;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 2rem;
+}
+
+.scientific-name {
+  margin: 0;
+  color: #607066;
+  font-style: italic;
+}
+
+.animal-details {
+  display: grid;
+  gap: 16px;
+  margin: 28px 0;
+}
+
+.animal-details div {
+  display: grid;
+  grid-template-columns: 72px 1fr;
+  gap: 12px;
+}
+
+.animal-details dt {
+  color: #65736a;
+  font-size: 0.8rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.animal-details dd {
+  margin: 0;
+  text-transform: capitalize;
+}
+
+.animal-card button {
+  margin-top: auto;
+  padding: 11px 16px;
+  border: 0;
+  border-radius: 8px;
+  background: #385c3b;
+  color: #fff;
+  cursor: pointer;
+  font: inherit;
+  font-weight: 700;
+}
+
+.animal-card button:hover,
+.animal-card button:focus-visible {
+  background: #28472d;
+}
